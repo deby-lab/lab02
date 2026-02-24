@@ -1,17 +1,25 @@
 # lab2
 
-A new Flutter project.
+Name: Kabagire Deborah
+lab 2 - Dart Async Weather App
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project demonstrates an asynchronous weather application in Dart.
+It fetches current weather data and displays a 5-day forecast using async/await, Futures, and Streams.
 
-A few resources to get you started if this is your first Flutter project:
+Run
+dart run lab2.dart
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+What is implemented
+Future + async/await weather fetch functions
+try-catch error handling in main()
+Future.wait parallel loading
+formatted weather report output
+Stream-based 5-day forecast with dates
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Future Work
+Add multi-location support.
+Integrate with mobile UI (Flutter).
+Improve error handling with retry logic.
